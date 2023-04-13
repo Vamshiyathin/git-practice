@@ -5,6 +5,13 @@ def add(x, y):
 # This function subtracts two numbers
 def subtract(x, y):
     return x - y
+# This function mutilpies two numbers
+def multiply(x, y):
+    return x * y
+# This function divides two numbers
+def division(x, y):
+    return x / y
+
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
@@ -31,7 +38,10 @@ while True:
         elif choice == '3':
             print(num1, "*",num2, "=",multiply(num1,num2))
         elif choice =='4':
+
+
             print(num1,"/",num2, "=",division(num1,num2))
+
 
 
         
